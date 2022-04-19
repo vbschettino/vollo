@@ -1,3 +1,13 @@
+<?xml version="1.0"?>
+<!-- Start Vollo teleop. -->
+
+<!-- Launch of teleop keyboard  -->
+
 <launch>
+    <!--rg name="rviz" default="true"/-->
+
+    <node pkg="teleop_twist_keyboard" type="leleop_twist_keyboard.py" name="leleop_node"/>
+    <node name="rviz" pkg="rviz" type="rviz" output="screen"/>
+    
 
 </launch>
