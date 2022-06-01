@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!-- Start Vollo bringup. -->
+
+<!-- Launch of robot  -->
+
+<launch>
+
+    <node pkg="rosserial_python" type="rserial_node.py" name="rserial_node" args="/dev/ttyACM0"/>
+
+    <include file="$(find rplidar_ros)/launch/rplidar.launch"/>
+
+</launch>
