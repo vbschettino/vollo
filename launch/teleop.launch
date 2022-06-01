@@ -4,10 +4,9 @@
 <!-- Launch of teleop keyboard  -->
 
 <launch>
-    <!--rg name="rviz" default="true"/-->
 
     <node pkg="teleop_twist_keyboard" type="leleop_twist_keyboard.py" name="leleop_node"/>
     <node name="rviz" pkg="rviz" type="rviz" output="screen"/>
-    
+    <!-- falta incluir no args do rviz -d mais o caminho do arqui salvo com as configurações da inicialização do Rviz (pasta config)-->
 
 </launch>
